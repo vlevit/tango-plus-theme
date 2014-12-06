@@ -220,7 +220,11 @@ Semantic, and Ansi-Color faces are included.")
    `(semantic-tag-boundary-face
                                     ((,class (:overline   ,blue-1))))
    `(semantic-unmatched-syntax-face
-                                    ((,class (:underline  ,red-1)))))
+                                    ((,class (:underline  ,red-1))))
+
+   ;; Shell-script mode
+   `(sh-quoted-exec                 ((,class (:foreground ,orange-2))))
+   `(sh-heredoc                     ((,class (:foreground ,orange-3)))))
 
   (custom-theme-set-variables
    'tango-plus
