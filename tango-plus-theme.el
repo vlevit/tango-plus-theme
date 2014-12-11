@@ -106,6 +106,7 @@ Semantic, and Ansi-Color faces are included.")
    `(font-lock-string-face          ((,class (:foreground ,orange-3))))
    `(font-lock-type-face            ((,class (:foreground ,blue-3))))
    `(font-lock-variable-name-face   ((,class (:foreground ,alum-6))))
+   `(font-lock-doc-face             ((,class (:foreground ,alum-4))))
    ;; Button and link faces
    `(link                           ((,class (:underline t :foreground ,blue-3))))
    `(link-visited                   ((,class (:underline t :foreground ,blue-2))))
